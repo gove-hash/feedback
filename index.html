@@ -172,7 +172,7 @@
                 if (response.ok) {
                     // Success
                     messageDiv.className = 'message success';
-                    messageDiv.textContent = '✅ Thank you! Your feedback has been sent successfully.';
+                    messageDiv.textContent = 'got the feedback, nadi!.';
                     messageDiv.style.display = 'block';
                     form.reset();
                 } else {
@@ -181,7 +181,7 @@
             } catch (error) {
                 // Error
                 messageDiv.className = 'message error';
-                messageDiv.textContent = '❌ Sorry, there was an error sending your feedback. Please try again.';
+                messageDiv.textContent = 'Please try again.';
                 messageDiv.style.display = 'block';
             }
 
